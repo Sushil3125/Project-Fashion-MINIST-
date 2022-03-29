@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>f5e927999dbd44cc92a075dc0ed0bf66</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown">
+<p>First of all checking the version of tensorflow using the following code.</p>
+</div>
+<div class="cell code" data-execution_count="87" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:01.961290Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:01.961851Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:01.968647Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:01.961914Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:01.967627Z&quot;}">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>tf.__version__</span></code></pre></div>
+<div class="output execute_result" data-execution_count="87">
+<pre><code>&#39;2.8.0&#39;</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Now, it's time to load the dataset</p>
+</div>
+<div class="cell code" data-execution_count="88" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:03.486456Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:03.486773Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:04.030521Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:03.486814Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:04.029454Z&quot;}">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow <span class="im">import</span> keras</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>fashion_mnist <span class="op">=</span> keras.datasets.fashion_mnist</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>(X_train, y_train), (X_test, y_test) <span class="op">=</span> fashion_mnist.load_data()</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>As can be seen from the above code, the dataset was divided into train and test sets. Let's take a look at the X_train</p>
+</div>
+<div class="cell code" data-execution_count="89" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:04.481056Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:04.481763Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:04.488619Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:04.481814Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:04.487905Z&quot;}">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;X_train :&#39;</span>,X_train.shape)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;X_test :&#39;</span>,X_test.shape)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;y_train :&#39;</span>,y_train.shape)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;y_test :&#39;</span>,y_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>X_train : (60000, 28, 28)
+X_test : (10000, 28, 28)
+y_train : (60000,)
+y_test : (10000,)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>As it is clear, the train dataset (<code>X_train</code>) contains 60,000 images of size 28 x 28. We can visualize one of the images using the following code:</p>
+</div>
+<div class="cell code" data-execution_count="90" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:06.161126Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:06.161758Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:06.271941Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:06.161803Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:06.271255Z&quot;}">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib <span class="im">as</span> mpl</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>sample_image <span class="op">=</span> X_train[<span class="dv">10</span>]</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>plt.imshow(sample_image, cmap<span class="op">=</span><span class="st">&#39;binary&#39;</span>)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">&#39;off&#39;</span>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/932e4585f4d65bebc058fe6c36f7ba93df52774d.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The <code>y_train</code> also includes values between 0 and 9. Each represents a particular category. For example, we can check the value of <code>y_train</code> for the above image.</p>
+</div>
+<div class="cell code" data-execution_count="91" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:06.980706Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:06.981180Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:06.989320Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:06.981231Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:06.988641Z&quot;}">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>y_train[<span class="dv">10</span>]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="91">
+<pre><code>0</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The above code shows that the image belongs to category 0. To get the associated label with each category, you can use the following code:</p>
+</div>
+<div class="cell code" data-execution_count="92" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:07.841201Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:07.841626Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:07.847896Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:07.841659Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:07.846980Z&quot;}">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>class_names <span class="op">=</span> [<span class="st">&#39;T-shirt/top&#39;</span>,<span class="st">&#39;Trouser&#39;</span>,<span class="st">&#39;Pullover&#39;</span>,<span class="st">&#39;Dress&#39;</span>,<span class="st">&#39;Coat&#39;</span>,<span class="st">&#39;Sandal&#39;</span>,<span class="st">&#39;Shirt&#39;</span>,<span class="st">&#39;Sneaker&#39;</span>,<span class="st">&#39;Bag&#39;</span>,<span class="st">&#39;Ankle boot&#39;</span>]</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(class_names[y_train[<span class="dv">10</span>]])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>T-shirt/top
+</code></pre>
+</div>
+</div>
+<section id="first-scaling-the-values-of-image-to-a-range-of-0-to-1-to-do-so-we-divide-the-values-by-255" class="cell markdown">
+<h2>First Scaling the values of image to a range of 0 to 1. To do so, we divide the values by 255.</h2>
+</section>
+<div class="cell code" data-execution_count="8" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:14.586648Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:14.587733Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:14.853357Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:14.587776Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:14.852052Z&quot;}">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>X_train_norm <span class="op">=</span> X_train <span class="op">/</span> <span class="fl">255.0</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>X_test_norm <span class="op">=</span> X_test <span class="op">/</span> <span class="fl">255.0</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(X_test_norm.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(10000, 28, 28)
+</code></pre>
+</div>
+</div>
+<section id="verifing-that-the-data-is-in-the-correct-format-lets-display-the-first-25-images-from-the-training-set-and-display-the-class-name-below-each-image" class="cell markdown">
+<h3>Verifing that the data is in the correct format, let's display the first 25 images from the training set and display the class name below each image.</h3>
+</section>
+<div class="cell code" data-execution_count="192" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:16.301045Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:16.301357Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:17.573973Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:16.301388Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:17.572964Z&quot;}">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">10</span>))</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>class_names <span class="op">=</span> [<span class="st">&#39;T-shirt/top&#39;</span>, <span class="st">&#39;Trouser&#39;</span>, <span class="st">&#39;Pullover&#39;</span>, <span class="st">&#39;Dress&#39;</span>, <span class="st">&#39;Coat&#39;</span>,</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>               <span class="st">&#39;Sandal&#39;</span>, <span class="st">&#39;Shirt&#39;</span>, <span class="st">&#39;Sneaker&#39;</span>, <span class="st">&#39;Bag&#39;</span>, <span class="st">&#39;Ankle boot&#39;</span>]</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">25</span>):</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">5</span>,<span class="dv">5</span>,i<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>    plt.xticks([])</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    plt.yticks([])</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">False</span>)</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    plt.imshow(X_train[i], cmap<span class="op">=</span>plt.cm.binary)</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(class_names[y_train[i]])</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/f050c96e743157b1b1a3c79a0822c30d44edd3ec.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>The above plot of the first 25 images in the dataset shows that indeed the images are grayscale photographs of items of clothing.</strong></p>
+</div>
+<section id="now-using-knn-to-train-our-1st-model" class="cell markdown">
+<h1>Now using KNN to train our 1st model</h1>
+</section>
+<div class="cell markdown">
+<p><strong>K-Nearest Neighbor Algorithm K-Nearest Neighbor (or KNN) algorithm is a non-parametric classification algorithm. Backprop Neural Network is a parametric model parametrized by weights and bias values. Non-parametric model, contrary to the name, has a very large number of parameters. In the case of Fashion MNIST example, we will use the entire Train Set as parameters of KNN.</strong></p>
+<p><strong>The basic idea behind KNN is simple. Given a (test) vector or image to classify or label, find k vectors or images in Train Set that are "closest" to the (test) vector or image. With the k closest vectors or images, there are k labels. Assign the most frequent label of k labels to the (test) vector or image.</strong></p>
+</div>
+<div class="cell code" data-execution_count="10" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:19.941234Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:19.941503Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:20.038584Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:19.941533Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:20.037509Z&quot;}">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># importing model</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsClassifier</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="11" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:21.461800Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:21.462101Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:21.470267Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:21.462133Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:21.469452Z&quot;}">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reshape the training and test data sets so that images of size (m, num_px, num_px) are flattened into single vectors of shape (m, num_px  ∗  num_px ).</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>X_train_flat<span class="op">=</span>X_train_norm.reshape(X_train_norm.shape[<span class="dv">0</span>], <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>X_test_flat<span class="op">=</span>X_test_norm.reshape(X_test_norm.shape[<span class="dv">0</span>], <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;X_train_flat shape = &#39;</span>, X_train_flat.shape)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;X_test_flat shape = &#39;</span>, X_test_flat.shape)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;y_train shape = &#39;</span>, y_train.shape)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;y_test shape = &#39;</span>, y_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>X_train_flat shape =  (60000, 784)
+X_test_flat shape =  (10000, 784)
+y_train shape =  (60000,)
+y_test shape =  (10000,)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="12" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:21.801209Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:21.802400Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:21.807665Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:21.802467Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:21.806641Z&quot;}">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># initializing the model</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> KNeighborsClassifier(n_neighbors <span class="op">=</span> <span class="dv">5</span>) <span class="co"># Using k = 5</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="13" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:22.191467Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:22.191756Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:22.254184Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:22.191787Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:22.253268Z&quot;}">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># training the model using X_train_flat and y_train</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>model.fit(X_train_flat, y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>KNeighborsClassifier()</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="14" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:22.581204Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:22.581493Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:57:52.273236Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:22.581525Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:57:52.272297Z&quot;}">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Now calculating the confidence</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>confidence <span class="op">=</span> model.score(X_test_flat, y_test)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(confidence)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>0.8554
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>Complexity:<br />
+The complexity of KNN for this example is quite high: for each image in Test Set (there are 10000 of them), we compute 60000 metrics (one each for Train image). After populating an array of 60000 metrics, we scan through this array to identify k smallest metrics.</strong></p>
+</div>
+<section id="looking-at-the-confidence-the-models-confidence-is-85-on-prediciting-the-test-data-lets-look-at-the-accuracy-of-the-model" class="cell markdown">
+<h3><strong>Looking at the confidence, the model's confidence is 85% on prediciting the test data. Lets look at the accuracy of the model</strong></h3>
+</section>
+<div class="cell code" data-execution_count="15" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:57:52.274884Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:57:52.275303Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:58:22.771114Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:57:52.275344Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:58:22.770184Z&quot;}">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> model.predict(X_test_flat)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> accuracy_score(y_test, y_pred)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;ACCURACY OF MODEL: &quot;</span>, accuracy)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>ACCURACY OF MODEL:  0.8554
+</code></pre>
+</div>
+</div>
+<section id="as-we-can-see-the-accuracy-of-out-model-is-85-which-is-pretty-good-this-mean-that-our-model-is-performing-good-in-test-data-set-we-can-easily-use-this-model-to-make-prediciton-lets-train-our-data-using-other-supervised-learning" class="cell markdown">
+<h2><strong>As we can see, the accuracy of out model is 85% which is pretty good. This mean that our model is performing good in test data set. We can easily use this model to make prediciton. Lets train our data using other supervised learning.</strong></h2>
+</section>
+<section id="using-single-layer-neural-network-with-one-neuron-to-train-our-model" class="cell markdown">
+<h1><strong>Using single layer neural network with one neuron to train our model</strong></h1>
+</section>
+<div class="cell markdown">
+<p><strong>The values of the target label are stored in a 1-dimensional array since essentially all the labels are represented as a single number. However, this kind of label representation is not the one that a Neural Network expect, so we need to turn this into one-hot representation before training the model</strong></p>
+</div>
+<div class="cell code" data-execution_count="16" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:58:33.502550Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:58:33.503814Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:58:34.421196Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:58:33.503860Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:58:34.420429Z&quot;}">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.utils <span class="im">import</span> to_categorical</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert y_train into one-hot format</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>temp <span class="op">=</span> []</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(y_train)):</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    temp.append(to_categorical(y_train[i], num_classes<span class="op">=</span><span class="dv">10</span>))</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> np.array(temp)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert y_test into one-hot format</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>temp <span class="op">=</span> []</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(y_test)):    </span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>    temp.append(to_categorical(y_test[i], num_classes<span class="op">=</span><span class="dv">10</span>))</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>y_test <span class="op">=</span> np.array(temp)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="17" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T08:58:34.423327Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T08:58:34.424229Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T08:58:34.430886Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T08:58:34.424290Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T08:58:34.429955Z&quot;}">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># now lets check the shape of y_train and y_test</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y_train.shape)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(60000, 10)
+(10000, 10)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="18" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:06:34.651757Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:06:34.652154Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:06:34.658496Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:06:34.652199Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:06:34.657357Z&quot;}">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Now lets initialize our model.</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="co"># first importing the modules</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="co"># now lets check the shape of y_train and y_test</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> keras</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> keras.layers <span class="im">import</span> Dense, Flatten</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> keras.models <span class="im">import</span> Sequential</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="19" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:06:34.840820Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:06:34.841992Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:06:35.382407Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:06:34.842056Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:06:35.381472Z&quot;}">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">#creating simple Neural Network model with 1 hidden layer with single neuron and output layer with 10 neurons as our class is 10</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>model2 <span class="op">=</span> Sequential()</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>model2.add(Flatten(input_shape<span class="op">=</span>(<span class="dv">28</span>,<span class="dv">28</span>)))</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>model2.add(Dense(<span class="dv">1</span>, activation <span class="op">=</span> <span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>model2.add(Dense(<span class="dv">10</span>, activation <span class="op">=</span> <span class="st">&#39;softmax&#39;</span>))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="20" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:06:35.384269Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:06:35.384508Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:06:35.403908Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:06:35.384539Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:06:35.403032Z&quot;}">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using the code below to see the detail of our Neural Network</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>model2.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ flatten (Flatten)           (None, 784)               0         
+                                                                 
+ dense (Dense)               (None, 1)                 785       
+                                                                 
+ dense_1 (Dense)             (None, 10)                20        
+                                                                 
+=================================================================
+Total params: 805
+Trainable params: 805
+Non-trainable params: 0
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>From the above summary, we see that our neural network have total 805 trainable parameters. We train these parameter using backpropagation.</strong></p>
+</div>
+<div class="cell code" data-execution_count="21" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:06:37.399770Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:06:37.400072Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:06:37.413046Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:06:37.400108Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:06:37.412218Z&quot;}">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co">#compiling the model</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>model2.<span class="bu">compile</span>(</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> <span class="st">&#39;categorical_crossentropy&#39;</span>, <span class="co"># using categorical_crossentropy to calculate loss</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    optimizer <span class="op">=</span> <span class="st">&#39;adam&#39;</span>, <span class="co">#using adam as optimizer.</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    metrics <span class="op">=</span> [<span class="st">&#39;accuracy&#39;</span>] <span class="co"># using accuracy and precision as our metrics</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><strong>Now comes the fun part, training the model</strong></p>
+</div>
+<div class="cell code" data-execution_count="22" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:06:38.341482Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:06:38.342737Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:07:50.883031Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:06:38.342784Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:07:50.880719Z&quot;}">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>history2 <span class="op">=</span> model2.fit(X_train_norm, y_train, epochs <span class="op">=</span> <span class="dv">20</span>, validation_data<span class="op">=</span>(X_test_norm,y_test))</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="co"># summarize history for accuracy</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>plt.plot(history2.history[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>plt.plot(history2.history[<span class="st">&#39;val_accuracy&#39;</span>])</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;model accuracy&#39;</span>)</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;accuracy&#39;</span>)</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;epoch&#39;</span>)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;train&#39;</span>, <span class="st">&#39;test&#39;</span>], loc<span class="op">=</span><span class="st">&#39;upper left&#39;</span>)</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a><span class="co"># summarize history for loss</span></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>plt.plot(history2.history[<span class="st">&#39;loss&#39;</span>])</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>plt.plot(history2.history[<span class="st">&#39;val_loss&#39;</span>])</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;model loss&#39;</span>)</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;loss&#39;</span>)</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;epoch&#39;</span>)</span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;train&#39;</span>, <span class="st">&#39;test&#39;</span>], loc<span class="op">=</span><span class="st">&#39;upper left&#39;</span>)</span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/20
+1875/1875 [==============================] - 2s 985us/step - loss: 2.0917 - accuracy: 0.1992 - val_loss: 1.9576 - val_accuracy: 0.2241
+Epoch 2/20
+1875/1875 [==============================] - 2s 991us/step - loss: 1.8722 - accuracy: 0.2226 - val_loss: 1.8081 - val_accuracy: 0.2258
+Epoch 3/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.7679 - accuracy: 0.2169 - val_loss: 1.7428 - val_accuracy: 0.2105
+Epoch 4/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.7220 - accuracy: 0.2161 - val_loss: 1.7114 - val_accuracy: 0.2221
+Epoch 5/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.6970 - accuracy: 0.2178 - val_loss: 1.7029 - val_accuracy: 0.2126
+Epoch 6/20
+1875/1875 [==============================] - 2s 923us/step - loss: 1.6731 - accuracy: 0.2511 - val_loss: 1.6584 - val_accuracy: 0.2736
+Epoch 7/20
+1875/1875 [==============================] - 2s 934us/step - loss: 1.6340 - accuracy: 0.2937 - val_loss: 1.6238 - val_accuracy: 0.3290
+Epoch 8/20
+1875/1875 [==============================] - 2s 937us/step - loss: 1.6037 - accuracy: 0.3141 - val_loss: 1.5976 - val_accuracy: 0.3319
+Epoch 9/20
+1875/1875 [==============================] - 2s 994us/step - loss: 1.5775 - accuracy: 0.3202 - val_loss: 1.5651 - val_accuracy: 0.3497
+Epoch 10/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.5495 - accuracy: 0.3205 - val_loss: 1.5400 - val_accuracy: 0.3322
+Epoch 11/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.5269 - accuracy: 0.3258 - val_loss: 1.5237 - val_accuracy: 0.3280
+Epoch 12/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.5096 - accuracy: 0.3322 - val_loss: 1.5098 - val_accuracy: 0.3160
+Epoch 13/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.4956 - accuracy: 0.3419 - val_loss: 1.4971 - val_accuracy: 0.3208
+Epoch 14/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.4825 - accuracy: 0.3429 - val_loss: 1.4807 - val_accuracy: 0.3732
+Epoch 15/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.4716 - accuracy: 0.3504 - val_loss: 1.4708 - val_accuracy: 0.3501
+Epoch 16/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.4609 - accuracy: 0.3546 - val_loss: 1.4612 - val_accuracy: 0.3743
+Epoch 17/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.4518 - accuracy: 0.3584 - val_loss: 1.4553 - val_accuracy: 0.3676
+Epoch 18/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.4430 - accuracy: 0.3668 - val_loss: 1.4480 - val_accuracy: 0.3531
+Epoch 19/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.4351 - accuracy: 0.3734 - val_loss: 1.4378 - val_accuracy: 0.3717
+Epoch 20/20
+1875/1875 [==============================] - 2s 1ms/step - loss: 1.4272 - accuracy: 0.3771 - val_loss: 1.4299 - val_accuracy: 0.3898
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/53ea75ebf9a6787269e044c9f3426ec9c5dfd634.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/d004f903c064041b39dc33ae2ce9a54e8978906a.png" /></p>
+</div>
+</div>
+<section id="the-model-is-performing-much-worst-than-knn-the-accuracy-is-just-38-lets-use-a-deep-neural-network-to-train-our-model" class="cell markdown">
+<h2><strong>The model is performing much worst than KNN. The accuracy is just 38%. Lets use a deep neural network to train our model.</strong></h2>
+</section>
+<section id="using-ann-with-2-layer-to-train-model" class="cell markdown">
+<h1>Using ANN with 2 layer to train model</h1>
+</section>
+<div class="cell code" data-execution_count="23" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:08:00.941758Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:08:00.942048Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:08:00.948668Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:08:00.942079Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:08:00.947045Z&quot;}">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co"># importing modules</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> keras</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> keras.layers <span class="im">import</span> Dense, Flatten</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> keras.models <span class="im">import</span> Sequential</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="24" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:08:01.300214Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:08:01.300865Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:08:01.310450Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:08:01.300919Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:08:01.309480Z&quot;}">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># printing shape of X_train and X_test</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Size of X_train : &#39;</span>, X_train.shape)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Size of X_test : &#39;</span>, X_test.shape)</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="co">#printing shape of y_train and y_test</span></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Size of y_train : &#39;</span>, y_train.shape)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&#39;Size of y_test : &#39;</span>, y_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Size of X_train :  (60000, 28, 28)
+Size of X_test :  (10000, 28, 28)
+Size of y_train :  (60000, 10)
+Size of y_test :  (10000, 10)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="25" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:08:02.620854Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:08:02.622069Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:08:02.663119Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:08:02.622120Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:08:02.662386Z&quot;}">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co">#creating simple Neural Network model with 2 layers each having  neurons.</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>model3 <span class="op">=</span> Sequential()</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>model3.add(Flatten(input_shape<span class="op">=</span>(<span class="dv">28</span>,<span class="dv">28</span>)))</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>model3.add(Dense(<span class="dv">5</span>, activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>model3.add(Dense(<span class="dv">5</span>, activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>model3.add(Dense(<span class="dv">10</span>, activation <span class="op">=</span> <span class="st">&#39;softmax&#39;</span>))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="26" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:08:05.141559Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:08:05.142063Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:08:05.163532Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:08:05.142120Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:08:05.162533Z&quot;}">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using the code below to see the detail of our NEural Network</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>model3.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential_1&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ flatten_1 (Flatten)         (None, 784)               0         
+                                                                 
+ dense_2 (Dense)             (None, 5)                 3925      
+                                                                 
+ dense_3 (Dense)             (None, 5)                 30        
+                                                                 
+ dense_4 (Dense)             (None, 10)                60        
+                                                                 
+=================================================================
+Total params: 4,015
+Trainable params: 4,015
+Non-trainable params: 0
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p><strong>As we can see, our model have total 3,985 trainable parameters. These parameter is tuned using the backpropagation. Now after constructing the Neural Network classifier model, we need to compile it. We wil use categorical_crossentropy as loss, adam optimizer and accuracy to be passed in metrics argument in order to measure the performance of our classifier..</strong></p>
+</div>
+<div class="cell code" data-execution_count="27" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:08:11.060975Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:08:11.061294Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:08:11.072464Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:08:11.061330Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:08:11.071627Z&quot;}">
+<div class="sourceCode" id="cb40"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>model3.<span class="bu">compile</span>(</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> <span class="st">&#39;categorical_crossentropy&#39;</span>,</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>    optimizer <span class="op">=</span> <span class="st">&#39;adam&#39;</span>,</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>    metrics <span class="op">=</span> [<span class="st">&#39;accuracy&#39;</span>, <span class="st">&#39;Precision&#39;</span>]</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<section id="now-training-our-neural-network" class="cell markdown">
+<h2>Now training our Neural Network</h2>
+</section>
+<div class="cell code" data-execution_count="28" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:08:38.967582Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:08:38.968094Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:09:20.489181Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:08:38.968160Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:09:20.488296Z&quot;}">
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># using .fit() method on our model</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>history3 <span class="op">=</span> model3.fit(X_train_norm, y_train, epochs <span class="op">=</span> <span class="dv">10</span>, validation_data<span class="op">=</span>(X_test_norm,y_test))</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a><span class="co"># summarize history for accuracy</span></span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>plt.plot(history3.history[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>plt.plot(history3.history[<span class="st">&#39;val_accuracy&#39;</span>])</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;model accuracy&#39;</span>)</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;accuracy&#39;</span>)</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;epoch&#39;</span>)</span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;train&#39;</span>, <span class="st">&#39;test&#39;</span>], loc<span class="op">=</span><span class="st">&#39;upper left&#39;</span>)</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a><span class="co"># summarize history for loss</span></span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a>plt.plot(history3.history[<span class="st">&#39;loss&#39;</span>])</span>
+<span id="cb41-13"><a href="#cb41-13" aria-hidden="true" tabindex="-1"></a>plt.plot(history3.history[<span class="st">&#39;val_loss&#39;</span>])</span>
+<span id="cb41-14"><a href="#cb41-14" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;model loss&#39;</span>)</span>
+<span id="cb41-15"><a href="#cb41-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;loss&#39;</span>)</span>
+<span id="cb41-16"><a href="#cb41-16" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;epoch&#39;</span>)</span>
+<span id="cb41-17"><a href="#cb41-17" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;train&#39;</span>, <span class="st">&#39;test&#39;</span>], loc<span class="op">=</span><span class="st">&#39;upper left&#39;</span>)</span>
+<span id="cb41-18"><a href="#cb41-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb41-19"><a href="#cb41-19" aria-hidden="true" tabindex="-1"></a><span class="co"># summarize history for precision</span></span>
+<span id="cb41-20"><a href="#cb41-20" aria-hidden="true" tabindex="-1"></a>plt.plot(history3.history[<span class="st">&#39;precision&#39;</span>])</span>
+<span id="cb41-21"><a href="#cb41-21" aria-hidden="true" tabindex="-1"></a>plt.plot(history3.history[<span class="st">&#39;val_precision&#39;</span>])</span>
+<span id="cb41-22"><a href="#cb41-22" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;model precision&#39;</span>)</span>
+<span id="cb41-23"><a href="#cb41-23" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;precision&#39;</span>)</span>
+<span id="cb41-24"><a href="#cb41-24" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;epoch&#39;</span>)</span>
+<span id="cb41-25"><a href="#cb41-25" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;train&#39;</span>, <span class="st">&#39;test&#39;</span>], loc<span class="op">=</span><span class="st">&#39;upper left&#39;</span>)</span>
+<span id="cb41-26"><a href="#cb41-26" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/10
+1875/1875 [==============================] - 3s 1ms/step - loss: 1.1757 - accuracy: 0.5728 - precision: 0.8397 - val_loss: 0.8637 - val_accuracy: 0.6721 - val_precision: 0.8127
+Epoch 2/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.8071 - accuracy: 0.7012 - precision: 0.8173 - val_loss: 0.7737 - val_accuracy: 0.7194 - val_precision: 0.8230
+Epoch 3/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.7223 - accuracy: 0.7441 - precision: 0.8377 - val_loss: 0.7106 - val_accuracy: 0.7493 - val_precision: 0.8365
+Epoch 4/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.6706 - accuracy: 0.7646 - precision: 0.8495 - val_loss: 0.6755 - val_accuracy: 0.7614 - val_precision: 0.8469
+Epoch 5/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.6425 - accuracy: 0.7749 - precision: 0.8528 - val_loss: 0.6557 - val_accuracy: 0.7682 - val_precision: 0.8483
+Epoch 6/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.6227 - accuracy: 0.7827 - precision: 0.8544 - val_loss: 0.6408 - val_accuracy: 0.7723 - val_precision: 0.8465
+Epoch 7/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.6099 - accuracy: 0.7862 - precision: 0.8562 - val_loss: 0.6293 - val_accuracy: 0.7791 - val_precision: 0.8509
+Epoch 8/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.5991 - accuracy: 0.7896 - precision: 0.8568 - val_loss: 0.6264 - val_accuracy: 0.7805 - val_precision: 0.8429
+Epoch 9/10
+1875/1875 [==============================] - 2s 1ms/step - loss: 0.5922 - accuracy: 0.7919 - precision: 0.8561 - val_loss: 0.6205 - val_accuracy: 0.7853 - val_precision: 0.8547
+Epoch 10/10
+1875/1875 [==============================] - 3s 1ms/step - loss: 0.5843 - accuracy: 0.7960 - precision: 0.8573 - val_loss: 0.6121 - val_accuracy: 0.7901 - val_precision: 0.8564
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/401305c8c7cdca27afff58c06473abfd37c94c8e.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/469806bae1b6c291d9152de27d3cc46627f85afc.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/2487ecded71b3373bd8a524ecbe5bf04377268c0.png" /></p>
+</div>
+</div>
+<section id="this-model-is-performing-far-better-than-previous-one-the-accuracy-is-87-which-is-very-good-we-can-improve-our-model-even-more-by-using-much-deeper-neural-network" class="cell markdown">
+<h2><strong>This model is performing far better than previous one. The accuracy is 87% which is very good. We can improve our model even more by using much deeper neural network.</strong></h2>
+</section>
+<section id="creating-new-model-with-more-hidden-layer" class="cell markdown">
+<h1>Creating new model with more hidden layer.</h1>
+</section>
+<div class="cell code" data-execution_count="29" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:12:03.140244Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:12:03.140533Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:12:03.239555Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:12:03.140564Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:12:03.238476Z&quot;}">
+<div class="sourceCode" id="cb43"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co">#creating Neural Network model with 7 layers</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>model4 <span class="op">=</span> Sequential()</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>model4.add(Flatten(input_shape<span class="op">=</span>(<span class="dv">28</span>,<span class="dv">28</span>)))</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>model4.add(Dense(<span class="dv">64</span>, activation <span class="op">=</span> <span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>model4.add(Dense(<span class="dv">128</span>, activation <span class="op">=</span> <span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>model4.add(Dense(<span class="dv">256</span>, activation <span class="op">=</span> <span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>model4.add(Dense(<span class="dv">256</span>, activation <span class="op">=</span> <span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>model4.add(Dense(<span class="dv">128</span>, activation <span class="op">=</span> <span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>model4.add(Dense(<span class="dv">64</span>, activation <span class="op">=</span> <span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>model4.add(Dense(<span class="dv">10</span>, activation <span class="op">=</span> <span class="st">&#39;softmax&#39;</span>))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="30" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:12:09.221224Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:12:09.221573Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:12:09.247632Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:12:09.221612Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:12:09.247092Z&quot;}">
+<div class="sourceCode" id="cb44"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using the code below to see the detail of our Neural Network</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>model4.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential_2&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ flatten_2 (Flatten)         (None, 784)               0         
+                                                                 
+ dense_5 (Dense)             (None, 64)                50240     
+                                                                 
+ dense_6 (Dense)             (None, 128)               8320      
+                                                                 
+ dense_7 (Dense)             (None, 256)               33024     
+                                                                 
+ dense_8 (Dense)             (None, 256)               65792     
+                                                                 
+ dense_9 (Dense)             (None, 128)               32896     
+                                                                 
+ dense_10 (Dense)            (None, 64)                8256      
+                                                                 
+ dense_11 (Dense)            (None, 10)                650       
+                                                                 
+=================================================================
+Total params: 199,178
+Trainable params: 199,178
+Non-trainable params: 0
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="31" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:12:22.141496Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:12:22.141829Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:12:22.155782Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:12:22.141864Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:12:22.154865Z&quot;}">
+<div class="sourceCode" id="cb46"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>model4.<span class="bu">compile</span>(</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>    loss <span class="op">=</span> keras.losses.binary_crossentropy,</span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>    optimizer <span class="op">=</span> <span class="st">&#39;adam&#39;</span>,</span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>    metrics <span class="op">=</span> [<span class="st">&#39;accuracy&#39;</span>]</span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="32" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:12:33.221293Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:12:33.221584Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:15:12.642347Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:12:33.221619Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:15:12.641327Z&quot;}">
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="co"># using .fit() method on our model</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>history <span class="op">=</span> model4.fit(X_train_norm, y_train, epochs <span class="op">=</span> <span class="dv">20</span>, validation_data<span class="op">=</span>(X_test_norm,y_test))</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a><span class="co"># summarize history for accuracy</span></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>plt.plot(history.history[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>plt.plot(history.history[<span class="st">&#39;val_accuracy&#39;</span>])</span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;model accuracy&#39;</span>)</span>
+<span id="cb47-7"><a href="#cb47-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;accuracy&#39;</span>)</span>
+<span id="cb47-8"><a href="#cb47-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;epoch&#39;</span>)</span>
+<span id="cb47-9"><a href="#cb47-9" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;train&#39;</span>, <span class="st">&#39;test&#39;</span>], loc<span class="op">=</span><span class="st">&#39;upper left&#39;</span>)</span>
+<span id="cb47-10"><a href="#cb47-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb47-11"><a href="#cb47-11" aria-hidden="true" tabindex="-1"></a><span class="co"># summarize history for loss</span></span>
+<span id="cb47-12"><a href="#cb47-12" aria-hidden="true" tabindex="-1"></a>plt.plot(history.history[<span class="st">&#39;loss&#39;</span>])</span>
+<span id="cb47-13"><a href="#cb47-13" aria-hidden="true" tabindex="-1"></a>plt.plot(history.history[<span class="st">&#39;val_loss&#39;</span>])</span>
+<span id="cb47-14"><a href="#cb47-14" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;model loss&#39;</span>)</span>
+<span id="cb47-15"><a href="#cb47-15" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;loss&#39;</span>)</span>
+<span id="cb47-16"><a href="#cb47-16" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;epoch&#39;</span>)</span>
+<span id="cb47-17"><a href="#cb47-17" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;train&#39;</span>, <span class="st">&#39;test&#39;</span>], loc<span class="op">=</span><span class="st">&#39;upper left&#39;</span>)</span>
+<span id="cb47-18"><a href="#cb47-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/20
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.3285 - accuracy: 0.1002 - val_loss: 0.3259 - val_accuracy: 0.1000
+Epoch 2/20
+1875/1875 [==============================] - 4s 2ms/step - loss: 0.2243 - accuracy: 0.3630 - val_loss: 0.1612 - val_accuracy: 0.5454
+Epoch 3/20
+1875/1875 [==============================] - 5s 3ms/step - loss: 0.1450 - accuracy: 0.6102 - val_loss: 0.1275 - val_accuracy: 0.6870
+Epoch 4/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.1123 - accuracy: 0.7362 - val_loss: 0.1034 - val_accuracy: 0.7765
+Epoch 5/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0906 - accuracy: 0.8051 - val_loss: 0.0938 - val_accuracy: 0.8049
+Epoch 6/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0825 - accuracy: 0.8289 - val_loss: 0.0812 - val_accuracy: 0.8379
+Epoch 7/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0764 - accuracy: 0.8478 - val_loss: 0.0849 - val_accuracy: 0.8333
+Epoch 8/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0726 - accuracy: 0.8563 - val_loss: 0.0773 - val_accuracy: 0.8482
+Epoch 9/20
+1875/1875 [==============================] - 7s 3ms/step - loss: 0.0698 - accuracy: 0.8617 - val_loss: 0.0768 - val_accuracy: 0.8456
+Epoch 10/20
+1875/1875 [==============================] - 7s 4ms/step - loss: 0.0676 - accuracy: 0.8654 - val_loss: 0.0746 - val_accuracy: 0.8489
+Epoch 11/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0654 - accuracy: 0.8697 - val_loss: 0.0743 - val_accuracy: 0.8490
+Epoch 12/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0638 - accuracy: 0.8725 - val_loss: 0.0739 - val_accuracy: 0.8512
+Epoch 13/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0618 - accuracy: 0.8756 - val_loss: 0.0744 - val_accuracy: 0.8489
+Epoch 14/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0604 - accuracy: 0.8779 - val_loss: 0.0685 - val_accuracy: 0.8615
+Epoch 15/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0590 - accuracy: 0.8815 - val_loss: 0.0675 - val_accuracy: 0.8629
+Epoch 16/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0576 - accuracy: 0.8839 - val_loss: 0.0675 - val_accuracy: 0.8595
+Epoch 17/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0567 - accuracy: 0.8848 - val_loss: 0.0666 - val_accuracy: 0.8641
+Epoch 18/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0553 - accuracy: 0.8873 - val_loss: 0.0665 - val_accuracy: 0.8668
+Epoch 19/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0546 - accuracy: 0.8885 - val_loss: 0.0666 - val_accuracy: 0.8667
+Epoch 20/20
+1875/1875 [==============================] - 6s 3ms/step - loss: 0.0536 - accuracy: 0.8899 - val_loss: 0.0664 - val_accuracy: 0.8643
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/46696293e876f536f2d847547a8ee231b8951fa8.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/4ec0be2713cf1fd32d98804c227c46582a2b3872.png" /></p>
+</div>
+</div>
+<section id="the-accuracy-of-this-model-is-by-far-the-best-ie-89-the-model-is-performing-very-good-on-predicting-data-therefore-using-this-model-to-predict-the-data-of-our-own-but-first-saving-this-model-in-h5-file-format" class="cell markdown">
+<h2><strong>The accuracy of this model is by far the best i.e. 89%. The model is performing very good on predicting data. Therefore, using this model to predict the data of our own. But first saving this model in h5 file format</strong></h2>
+</section>
+<div class="cell code" data-execution_count="57" data-execution="{&quot;iopub.status.busy&quot;:&quot;2022-03-26T09:25:00.782097Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2022-03-26T09:25:00.782371Z&quot;,&quot;iopub.status.idle&quot;:&quot;2022-03-26T09:25:00.860619Z&quot;,&quot;iopub.execute_input&quot;:&quot;2022-03-26T09:25:00.782401Z&quot;,&quot;shell.execute_reply&quot;:&quot;2022-03-26T09:25:00.859826Z&quot;}">
+<div class="sourceCode" id="cb49"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>model4.save(<span class="st">&quot;best_model.h5&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p><strong>The entire model is saved in 'best_model.h5' file. Now we can simply use this model to predict the image.</strong></p>
+</div>
+<section id="using-the-saved-model-to-predict" class="cell markdown">
+<h1>Using the saved model to predict</h1>
+</section>
+<div class="cell code" data-execution_count="116">
+<div class="sourceCode" id="cb50"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> keras.models <span class="im">import</span> load_model</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> cv2 <span class="im">as</span> cv</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>best_model <span class="op">=</span> load_model(<span class="st">&#39;best_model.h5&#39;</span>)</span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image, ImageOps</span>
+<span id="cb50-7"><a href="#cb50-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb50-8"><a href="#cb50-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb50-9"><a href="#cb50-9" aria-hidden="true" tabindex="-1"></a>best_model.<span class="bu">compile</span>(loss<span class="op">=</span><span class="st">&#39;binary_crossentropy&#39;</span>,</span>
+<span id="cb50-10"><a href="#cb50-10" aria-hidden="true" tabindex="-1"></a>              optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>,</span>
+<span id="cb50-11"><a href="#cb50-11" aria-hidden="true" tabindex="-1"></a>              metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>With a loaded model, it's time to generate predictions with our best model!</p>
+</div>
+<div class="cell code" data-execution_count="183">
+<div class="sourceCode" id="cb51"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># A few random samples</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>use_samples <span class="op">=</span> [<span class="dv">5</span>, <span class="dv">38</span>, <span class="dv">3939</span>, <span class="dv">8888</span>]</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>samples_to_predict <span class="op">=</span> []</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate plots for samples</span></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> sample <span class="kw">in</span> use_samples:</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Generate a plot</span></span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>    reshaped_image <span class="op">=</span> X_test[sample].reshape((<span class="dv">28</span>, <span class="dv">28</span>))</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    plt.imshow(reshaped_image, cmap<span class="op">=</span><span class="st">&#39;binary&#39;</span>)</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Add sample to array for prediction</span></span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a>    samples_to_predict.append(X_test[sample])</span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert into Numpy array</span></span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a><span class="co"># before feeding them to the model, we convert our list into a Numpy array. </span></span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a><span class="co"># This allows us to compute shape and allows model to handle the data more smoothly:</span></span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a>samples_to_predict <span class="op">=</span> np.array(samples_to_predict)</span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(samples_to_predict.shape)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/c6e2399e82e2c2aafa77cca7ed905029082b53f1.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/6a9a18814d66ab7da13c1985716ad1a362ac6dfd.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/b1990c1d9c27fff93d970e56dfa43fc50032efe9.png" /></p>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/bb0485f3aeaadaa9e2fe86819eb76fe90c889686.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>(4, 28, 28)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Above, The output of the print statement: (4, 28, 28).</p>
+<p>We indeed added 4 images of 28x28 pixels with one channel per image.</p>
+<p>The next step is to generate the predictions:</p>
+</div>
+<div class="cell code" data-execution_count="185">
+<div class="sourceCode" id="cb53"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate predictions for samples</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> best_model.predict(samples_to_predict)</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(predictions)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[2.1907715e-08 9.9999988e-01 1.3450659e-09 4.0192827e-08 2.2071780e-09
+  1.7799398e-12 8.4747434e-08 3.4908805e-12 6.0734888e-09 5.1339084e-09]
+ [7.2417645e-09 8.2373018e-11 2.3106953e-12 9.5203038e-12 1.6331136e-10
+  5.2338642e-06 6.9336994e-11 9.9999201e-01 9.9208592e-07 1.7249102e-06]
+ [1.0553017e-03 3.2086417e-04 9.1196728e-01 1.3286810e-03 7.2166629e-02
+  7.0454662e-06 1.2078424e-02 2.5700224e-08 1.0750396e-03 7.3937980e-07]
+ [5.9819096e-05 8.5815003e-08 1.0571449e-06 1.1237713e-07 5.7453826e-07
+  1.9800609e-06 6.0697030e-06 4.3663320e-07 9.9992979e-01 1.0307114e-07]]
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>As we used the Softmax activation function when creating our model. This activation function doesn't compute the prediction, but rather a discrete probability distribution over the target classes. This means that Softmax computes the probability that the input belongs to a particular class, for each class. The values in each row summate to 1 - or 100%, which is a characteristic of a valid probability distribution.</p>
+<p>Now, we can finalize our work by actually finding out what our predicted classes are - by taking the argmax values (or "maximum argument", index of the maximum value) for each element in the list with predictions:</p>
+</div>
+<div class="cell code" data-execution_count="189">
+<div class="sourceCode" id="cb55"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate arg maxes for predictions</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>classes <span class="op">=</span> np.argmax(predictions, axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classes)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[1 7 2 8]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="191">
+<div class="sourceCode" id="cb57"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>pred_name <span class="op">=</span> []</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> classes:</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(class_names[i])</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>    pred_name.append(class_names[i])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Trouser
+Sneaker
+Pullover
+Bag
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>As we can see above, our model predicted first image as Trouser, second as Sneaker, third as Pullover and fourth as bag which is indeed 100% correct. Therefore, our model is performing good in predicting unseen data as well.</p>
+</div>
+<div class="cell code" data-execution_count="200">
+<div class="sourceCode" id="cb59"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">20</span>,<span class="dv">20</span>))</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">4</span>):</span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">5</span>,<span class="dv">5</span>,i<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>    plt.xticks([])</span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>    plt.yticks([])</span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">False</span>)</span>
+<span id="cb59-7"><a href="#cb59-7" aria-hidden="true" tabindex="-1"></a>    plt.imshow(X_test[use_samples[i]], cmap<span class="op">=</span>plt.cm.binary)</span>
+<span id="cb59-8"><a href="#cb59-8" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(pred_name[i])</span>
+<span id="cb59-9"><a href="#cb59-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_3c2b3a698ebd4dad8e1134f40dacdeb9/3bcf2c683ab0df6788bfcbcd2b9963d1d97c33cc.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>In this way, the model is trained and the best model is evaluated. Our best model was model4 which is trained in very deep neural network. The accuray of the model is 88%.</p>
+</div>
+</body>
+</html>
